@@ -1,0 +1,8 @@
+python-dotenv
+lancedb
+openai
+agno
+duckduckgo-search
+tantivy
+pylance
+pandas

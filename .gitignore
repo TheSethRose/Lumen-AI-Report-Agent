@@ -1,67 +1,26 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
+# Python virtual environments
+.venv/
+venv/
 
-.DS_Store
-
-# Python cache
-.mypy_cache
-*__pycache__*
-*.egg-info
-*.pyc
-*.pytest_cache
-*.ruff_cache
-*.cache*
-*.config*
-
-# Machine specific
-.idea
-.vscode
-*.code-workspace
-
-# Ignore .env files
+# Environment variable files
 .env
 
-# Ignore .envrc files (used by direnv: https://direnv.net/)
-.envrc
+# Vector database and LanceDB artifacts
+vector_db/
 
-certs/
+# agno/roo/roo-related cache or runtime folders
+.roo/
 
-# ignore storage dir
-/storage
-.images
-/qdrant_storage
+# OS and IDE files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
 
-# ignore wip dir
-wip
+# Python cache
+__pycache__/
+*.py[cod]
 
-# ignore dist dir
-dist
-
-# ignore virtualenvs
-.venv*
-.perfenv*
-venv*
-agnoenv*
-aienv*
-phienv*
-
-# ignore tmp dirs
-scratch
-junk
-tmp
-agents.db
-data.db
-
-.ipynb_checkpoints
-
-audio_generations
-
-*.db
-
-# Google OAuth token
-token.json
-
-.composio.lock
-
-# Coverage
-coverage_report
-.coverage
+# Miscellaneous
+*.log
