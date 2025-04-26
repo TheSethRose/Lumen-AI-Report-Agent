@@ -1,0 +1,6 @@
+# This file tells GitHub to display a Sponsor button for your profile or organization.
+# See: https://docs.github.com/en/github/building-a-strong-community/displaying-a-sponsor-button-in-your-repository
+
+# Replace 'TheSethRose' with your GitHub username or organization name if needed.
+sponsorable:
+  - TheSethRose
